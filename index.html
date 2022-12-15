@@ -24,10 +24,11 @@
         font-size: 15px;
       }
       main {
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
       }
       .attribution {
         font-size: 11px;
@@ -40,10 +41,9 @@
       .card {
         background-color: white;
         max-width: 300px;
-        margin: auto;
         text-align: center;
         border-radius: 25px;
-        padding: 25px;
+        padding: 15px;
       }
       .title {
         font-weight: 700;
@@ -68,27 +68,30 @@
   </head>
   <body>
     <main>
-        <div class="card">
-          <div class="imageContainer">
-            <img src="images/image-qr-code.png" alt="QR Code to Frontend Mentor"/>
-          </div>
-          <div class="textContainer">
-            <h1 class="title">
-              Improve your front-end skills by building projects
-            </h1>
-            <p class="subtitle">
-              Scan the QR code to visit Frontend Mentor and take your coding
-              skills to the next level
-            </p>
-          </div>
+      <div class="card">
+        <div class="imageContainer">
+          <img
+            src="images/image-qr-code.png"
+            alt="QR Code to Frontend Mentor"
+          />
         </div>
+        <div class="textContainer">
+          <h1 class="title">
+            Improve your front-end skills by building projects
+          </h1>
+          <p class="subtitle">
+            Scan the QR code to visit Frontend Mentor and take your coding
+            skills to the next level
+          </p>
+        </div>
+      </div>
 
-        <div class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by <a href="https://www.benjaminlutz.at">Benjamin Lutz</a>.
-        </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://www.benjaminlutz.at">Benjamin Lutz</a>.
+      </div>
     </main>
   </body>
 </html>
